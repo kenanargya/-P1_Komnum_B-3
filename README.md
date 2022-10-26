@@ -1,4 +1,4 @@
-# P1_Komnum_B 3
+# P1_Komnum_B3
 
 Kelompok 3
 * Ken Anargya Alkausar - 5025211168
