@@ -18,7 +18,7 @@ Jika metode analitik sulit dilakukan, metode numerik diperlukan. Salah satu meto
 1. Pertama, kita akan mengimport library plotting dari python yaitu matplotlib dan numpy untuk menampilkan hasil grafik fungsi selama eksekusi program.
 2. Kami telah membuat dua fungsi yang disebut f(x) dan midPoint. Fungsi di sini digunakan untuk menghitung hasil akhir ketika nilai x disubstitusikan ke dalam fungsi. Sedangkan fungsi midPoint digunakan untuk menghitung titik tengah (x3).
 3. Selanjutnya program akan meminta user untuk memasukkan x1, x2 dan jumlah iterasi. Jika x1 lebih besar dari x2, posisinya akan ditukar.
-4. Nilai koordinat x akan disimpan di xPrint dengan rentang x1 - x2 dengan selisih 0,1, kemudian hasil alternatif (f(x)) akan disimpan di yPrint sebagai koordinat y.
+4. Nilai koordinat x akan disimpan di xP dengan rentang x1 - x2 dengan selisih 0,1, kemudian hasil alternatif (f(x)) akan disimpan di yP sebagai koordinat y.
 5. Kemudian gunakan for loop dengan sebanyak rentang iterasi seperti yang dimasukkan dalam input.
 6. Masukkan nilai x1 dan x2 ke dalam fungsi f(x) untuk mendapatkan hasil fungsi kemudian untuk mencari nilai x3 masukkan dua nilai x1 dan x2 di midPoint fungsi dan masukkan nilai x3 yang diterima ke dalam fungsi fungsi untuk mencari hasil dari fungsi x3.
 7. Mengoutput x1, x2, x3, f (x1), (x2), f (x3) dengan 8 angka desimal dibelakang koma.
