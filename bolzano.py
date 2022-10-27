@@ -44,7 +44,7 @@ for x in range(itr):
     else:
         x1 = x3
 
-print('Jawabannya adalah antara :  ', '{0:.8g}'.format(x1), 'to', '{0:.8g}'.format(x2), end='\n\n')
+print('Jawabannya adalah antara :  ', '{0:.8g}'.format(x1), 'ke', '{0:.8g}'.format(x2), end='\n\n')
 
 plt.plot(xP, f(xP), c = "green")
 plt.show()
