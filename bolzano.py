@@ -7,7 +7,7 @@ def f(x):
     return f
 
 def midPoint(x1, x2):
-   return (x1 + x2)/2
+   return (x1 + x2) / 2
 
 x1 = float(input('Masukkan x1: ' ))
 x2 = float(input('Masukkan x2: ' ))
@@ -44,7 +44,7 @@ for x in range(itr):
     else:
         x1 = x3
 
-print('The answer is in between: ', '{0:.8g}'.format(x1), 'to', '{0:.8g}'.format(x2), end='\n\n')
+print('Jawabannya adalah antara :  ', '{0:.8g}'.format(x1), 'to', '{0:.8g}'.format(x2), end='\n\n')
 
 plt.plot(xP, f(xP), c = "green")
 plt.show()
